@@ -1,0 +1,37 @@
+# Local credentials and account configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+# Data, model artifacts and generated outputs
+data/
+apply/
+models/
+exit_model/
+trend_visualizations/
+charts/
+*.csv
+*.parquet
+*.jsonl
+*.log
+*.pkl
+*.pickle
+*.joblib
+*.ubj
+*.bin
+*.pt
+*.pth
+*.onnx
+# Local tooling and scratch files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+.vscode/
+.cursor/
+.ipynb_checkpoints/
+temp.txt
